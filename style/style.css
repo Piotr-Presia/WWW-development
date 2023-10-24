@@ -1,0 +1,111 @@
+
+/* Update your CV from the last week to be a FlexBox responsive design. Design is mostly up to you but for full marks your design should:
+
+Have 3 columns at some point in the design
+Use Justified Content
+Use a media query to change some aspect of your design at smaller widths */
+
+html { scroll-behavior: smooth;
+	}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: courier;
+  font-size: 150%;
+	}
+
+ul {
+	display: inline-block;
+	text-align: left;
+	
+	}
+
+h1 {text-shadow: 5px 3px 5px darkgreen ;
+	font-variant-caps: small-caps;
+}
+h2, h3 {text-shadow: 5px 3px 5px darkgreen ;
+	
+			}
+
+span{text-decoration: underline;
+	font-weight: bold;
+	}
+	
+	p {text-align: justify;
+	}
+
+.squareList {list-style-type: circle;}
+
+.starList {list-style-type: lower-latin;}
+
+hr { width: 85%;
+background-color: green;}
+
+.goTo {text-align: right;
+font-variant-caps: small-caps;
+ font-size: 0.7em;
+ margin: 1%;
+		}
+
+		#container {
+
+			display: flex;
+			column-gap: 5%;
+			row-gap: 3%;
+			justify-content:center;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+			flex-wrap: wrap;
+
+			
+		}
+
+		#container div {
+			
+			
+			
+			text-align: justify;
+			min-width:450px;
+			max-width: 27%;
+			margin: 10px 0px 10px 0px;
+			
+			
+			
+		}
+
+		#container div:nth-child(1) {
+			
+			
+			
+			
+		
+			
+			
+		}
+
+		#container div:nth-child(2) {
+			
+			
+			
+			
+		}
+
+		#container div:nth-child(3) {
+			
+			
+		
+			
+		}
+		
+		p span {
+			font-variant-caps: small-caps;
+			
+		}
+
+		.paragraphPadding {
+			padding: 0% 5% 0% 5%;
+		}
+
+		
