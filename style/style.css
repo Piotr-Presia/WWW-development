@@ -96,3 +96,44 @@ p span {
 	padding: 2% 5% 2% 5%;
 
 }
+
+@media (max-width: 700px) {
+
+	body {
+
+		background-color: white;
+	}
+
+	h2,
+	h3 {
+		font-size: medium;
+		text-shadow: 5px 3px 5px black;
+	}
+
+	ul {
+		font-size: medium;
+	}
+
+	p {
+		font-size: large;
+		font-family: Ariel;
+	}
+
+	.row {
+		font-style: italic;
+		font-size: small;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		margin: 20px 0px 20px 0px;
+	}
+
+
+	header,
+	footer {
+		font-size: large;
+	}
+
+	.goTo,
+	a {
+		font-size: small;
+	}
+}
